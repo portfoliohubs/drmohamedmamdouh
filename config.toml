@@ -1,0 +1,395 @@
+baseURL = "https://portfoliohubs.github.io/drmohamedmamdouh/"
+languageCode = "en-us"
+title = "Dr. Mohamed Mamdouh Abdelmonem Mohamed"
+defaultContentLanguage = "en"
+
+[params]
+  # Hero Section
+  [params.hero]
+    name = "Dr. Mohamed Mamdouh Abdelmonem Mohamed"
+    tagline = "Intern Doctor"
+    graduation = "Graduated 2025 - Faculty of Dentistry"
+    profile_image = "https://github.com/user-attachments/assets/28e630b5-3b50-4926-b0e8-279c2bdbc7a2"
+    profile_image_alt = "Profile photo of Dr. Mohamed Mamdouh Abdelmonem Mohamed"
+    
+    [params.hero.current_position]
+      role = "Intern Doctor"
+      clinic = "Intern Doctor at Minya El-Qamh Hospital"
+
+  [params.seo]
+    description = "Professional dental portfolio"
+    doctor_name_en = "Dr. Mohamed Mamdouh Abdelmonem Mohamed"
+    doctor_name_ar = "د. محمد ممدوح عبدالمنعم محمد"
+    site_name = "Dr. Mohamed Mamdouh Abdelmonem Mohamed"
+    og_image = "https://github.com/user-attachments/assets/79067814-b927-4c25-abed-067301096d2c"
+    favicon_image = "https://github.com/user-attachments/assets/79067814-b927-4c25-abed-067301096d2c"
+    twitter_handle = ""
+    keywords = [
+      "dentist",
+      "dental clinic",
+      "cosmetic dentistry",
+      "restorative dentistry",
+      "Dr. Mohamed Mamdouh Abdelmonem Mohamed",
+      "zagazig",
+      "DENTIST IN ZAGAZIG",
+      "DENTAL CLINIC IN ZAGAZIG",
+      "DENTAL CLINIC",
+      "intern doctor",
+      "minya el-qamh"
+    ]
+    keywords_ar = [
+      "طبيب أسنان",
+      "عيادة أسنان",
+      "تجميل الأسنان",
+      "ترميم الأسنان",
+      "د. محمد ممدوح عبدالمنعم محمد",
+      "طبيب بالزقازيق",
+      "عيادة بالزقازيق",
+      "دكتور محمد ممدوح عبدالمنعم محمد",
+      "عيادة محمد ممدوح عبدالمنعم محمد",
+      "عيادة اسنان الزقازيق",
+      "محمد ممدوح عبدالمنعم محمد اسنان",
+      "طبيب امتياز",
+      "مستشفى منيا القمح"
+    ]
+
+  [params.integrations]
+    google_search_console_verification = "6VtKNI5qnSYsfjCTBMfnm9PuZjjR7aYh6crmofpS8yw"
+    google_analytics_measurement_id = ""
+
+  [params.ui]
+    [params.ui.nav]
+      profile = "Profile"
+      skills = "Skills"
+      education = "Education"
+      clinical_cases = "Clinical Cases"
+      cases_short = "Cases"
+      blog = "Blog"
+      contact = "Contact"
+
+    [params.ui.skills]
+      title = "Professional Skills"
+      clinical_title = "Clinical Skills"
+      digital_title = "Digital Skills"
+      soft_title = "Soft Skills"
+
+    [params.ui.education]
+      title = "Education & Timeline"
+      graduated_label = "Graduated"
+      career_timeline_title = "Career Timeline"
+      courses_title = "Courses & Certifications"
+
+    [params.ui.cases]
+      title = "Clinical Cases"
+      subtitle = "Clinical Cases Gallery"
+
+    [params.ui.blog]
+      title = "Latest Articles"
+      subtitle = "Insights and Knowledge"
+      empty_text = "No blog posts yet"
+
+    [params.ui.contact]
+      title = "Get In Touch"
+      subtitle = "Let's connect and collaborate"
+      follow_me_title = "Follow Me"
+
+    [params.ui.labels]
+      now_working_as = "Now working as"
+      at = "at"
+      phone = "Phone"
+      whatsapp = "WhatsApp"
+      email = "Email"
+      location = "Location"
+      get_directions = "Get Directions"
+      masters_degree = "Master's Degree"
+      phd_degree = "PhD Degree"
+      rights_reserved = "All rights reserved"
+
+  # Skills Section
+  [params.skills]
+    clinical = [
+      "Surgery",
+      "Endodontics",
+      "Operative Dentistry",
+      "Pediatric Dentistry",
+      "Cosmetic Dentistry",
+      "Periodontology",
+      "Fixed Prosthodontic",
+      "Removable Prosthodontic"
+    ]
+    
+    digital = [
+      "Dental photography",
+      "Power point",
+      "Blue sky"
+    ]
+    
+    soft = [
+      "Pediatric patient management",
+      "patient management",
+      "Treatment plane",
+      "Time management",
+      "Ability to provide excellent patient care and communicate effectively"
+    ]
+
+  # Education Section
+  [params.education]
+    university = "Zagazig University Faculty of Dentistry"
+    graduation_year = "2025"
+    
+    [params.education.master]
+      obtained = false
+      title = "لا يوجد"
+      year = ""
+    
+    [params.education.phd]
+      obtained = false
+      title = "لا يوجد"
+      year = ""
+    
+    [[params.education.timeline]]
+      year = "2020"
+      event = "Start faculty of dentistry"
+    
+    [[params.education.timeline]]
+      year = "2025"
+      event = "Graduated of dentistry"
+    
+    # Certificates (images will be uploaded via GitHub issues)
+    # [[params.education.certificates]]
+    #   title = "Advanced Endodontics Course"
+    #   image = "cert1.jpg"
+  # Clinical Cases Section
+  [[params.clinical_cases]]
+    enabled = true
+    category = "Surgery"
+    category_ar = "جراحة"
+    
+    [[params.clinical_cases.cases]]
+      photo = "https://github.com/user-attachments/assets/55b11ce9-81be-42dc-bef3-ff7362becd98"
+      alt = "Case of extraction of four wisdom teeth under general anesthesia"
+      description = "Case of extraction of four wisdom teeth under general anesthesia"
+      alt_ar = "حالة استئصال أربعة ضروس عقل تحت التخدير العام"
+      description_ar = "حالة استئصال أربعة ضروس عقل تحت التخدير العام"
+    
+    [[params.clinical_cases.cases]]
+      photo = "https://github.com/user-attachments/assets/5fe5fbc3-b38b-4d86-b3d2-1c2db7474397"
+      alt = "Excision of a granuloma"
+      description = "Excision of a granuloma"
+      alt_ar = "استئصال ورم حبيبي"
+      description_ar = "استئصال ورم حبيبي"
+
+  [[params.clinical_cases]]
+    enabled = true
+    category = "Fixed"
+    category_ar = "تركيبات ثابتة"
+    
+    [[params.clinical_cases.cases]]
+      photo = "https://github.com/user-attachments/assets/6ad4f6a7-4cc8-4419-9842-5c8641da7e8b"
+      alt = "Bridge for missing lower first molar"
+      description = "Bridge for missing lower first molar"
+      alt_ar = "جسر لضرس أول سفلي مفقود"
+      description_ar = "جسر لضرس أول سفلي مفقود"
+
+  [[params.clinical_cases]]
+    enabled = true
+    category = "Operative"
+    category_ar = "حشو عادي"
+    
+    [[params.clinical_cases.cases]]
+      photo = "https://github.com/user-attachments/assets/18926447-bdf9-4779-ba79-97a8d57c83df"
+      alt = "Composite restoration for the two central incisors"
+      description = "Composite restoration for the two central incisors"
+      alt_ar = "حشو كومبوزيت للقاطعين المركزيين"
+      description_ar = "حشو كومبوزيت للقاطعين المركزيين"
+    
+    [[params.clinical_cases.cases]]
+      photo = "https://github.com/user-attachments/assets/814da2f0-bfad-40c8-905b-90b53760379c"
+      alt = "Deep Margin Elevation (DME)"
+      description = "Deep Margin Elevation (DME)"
+      alt_ar = "رفع الحافة العميقة"
+      description_ar = "رفع الحافة العميقة"
+    
+    [[params.clinical_cases.cases]]
+      photo = "https://github.com/user-attachments/assets/e7160c3f-7552-4dbe-b918-a52b7628b571"
+      alt = "Operative restoration for upper and lower canines"
+      description = "Operative restoration for upper and lower canines"
+      alt_ar = "حشو ترميمي للأنياب العلوية والسفلية"
+      description_ar = "حشو ترميمي للأنياب العلوية والسفلية"
+    
+    [[params.clinical_cases.cases]]
+      photo = "https://github.com/user-attachments/assets/d85dbbcf-6858-47ac-92be-dc9b21b90750"
+      alt = "Operative restoration for central and lateral incisors"
+      description = "Operative restoration for central and lateral incisors"
+      alt_ar = "حشو ترميمي للقواطع المركزية والجانبية"
+      description_ar = "حشو ترميمي للقواطع المركزية والجانبية"
+
+  [[params.clinical_cases]]
+    enabled = true
+    category = "Pedo"
+    category_ar = "طب أسنان الأطفال"
+    
+    [[params.clinical_cases.cases]]
+      photo = "https://github.com/user-attachments/assets/ecfc45a0-7dd9-44d4-a211-6ea90cc193c6"
+      alt = "Pediatric dental case for lower E"
+      description = "Pediatric dental case for lower E"
+      alt_ar = "حالة طب أسنان أطفال للضرس السفلي E"
+      description_ar = "حالة طب أسنان أطفال للضرس السفلي E"
+
+  [[params.clinical_cases]]
+    enabled = true
+    category = "Endo"
+    category_ar = "حشو عصب"
+    
+    [[params.clinical_cases.cases]]
+      photo = "https://github.com/user-attachments/assets/fcd6edec-822c-48d2-8611-acbae9174570"
+      alt = "Root canal treatment for upper first molar with MB2 canal"
+      description = "Root canal treatment for upper first molar with MB2 canal"
+      alt_ar = "علاج الجذور للضرس الأول العلوي مع قناة MB2"
+      description_ar = "علاج الجذور للضرس الأول العلوي مع قناة MB2"
+    
+    [[params.clinical_cases.cases]]
+      photo = "https://github.com/user-attachments/assets/f484bc3b-976c-4222-a5a9-460890d45ad8"
+      alt = "Endo of lower 6"
+      description = "Endo of lower 6"
+      alt_ar = "حشو عصب للضرس السفلي 6"
+      description_ar = "حشو عصب للضرس السفلي 6"
+    
+    [[params.clinical_cases.cases]]
+      photo = "https://github.com/user-attachments/assets/030cb186-fa79-4eee-8bcf-24a3e10edc9a"
+      alt = "Endo of lower 6"
+      description = "Endo of lower 6"
+      alt_ar = "حشو عصب للضرس السفلي 6"
+      description_ar = "حشو عصب للضرس السفلي 6"
+
+  [[params.clinical_cases]]
+    enabled = true
+    category = "Prosthesis"
+    category_ar = "تركيبات"
+    
+    [[params.clinical_cases.cases]]
+      photo = "https://github.com/user-attachments/assets/3d6fe067-296b-4abe-a2b1-84ba31b1ce71"
+      alt = "Partial prosthesis case"
+      description = "Partial prosthesis case"
+      alt_ar = "حالة تركيب جزئي"
+      description_ar = "حالة تركيب جزئي"
+      
+  # Contact Section
+  [params.contact]
+    phone = "01065118487"
+    whatsapp = "01065118487"
+    email = "mohamed.labib1709@gmail.com"
+    instagram = "https://www.instagram.com/dr.mohamed_007?igsh=MTNiOXoxZG0xYWhqOQ=="
+    facebook = "https://www.facebook.com/share/1HQFynvpqR/"
+    linkedin = ""
+    
+    [params.contact.location]
+      enabled = true
+      address = "مستشفى منيا القمح المركزى"
+      latitude = "30.521446790051183"
+      longitude = "31.352147417742568"
+
+# Arabic Translations
+[params.ar]
+  [params.ar.hero]
+    name = "د. محمد ممدوح عبدالمنعم محمد"
+    tagline = "طبيب امتياز"
+    graduation = "تخرج 2025 - كلية طب الأسنان"
+    profile_image_alt = "صورة الملف الشخصي للدكتور محمد ممدوح عبدالمنعم محمد"
+    
+    [params.ar.hero.current_position]
+      role = "طبيب امتياز"
+      clinic = "طبيب امتياز بمستشفى منيا القمح"
+  
+[params.ar.skills]
+    clinical = [
+      "جراحة",
+      "حشو عصب",
+      "حشو تجميلي",
+      "تركيبات ثابتة",
+      "تركيبات متحركة",
+      "علاج أمراض اللثة",
+      "طب أسنان الأطفال",
+      "جراحة التجميل"
+    ]
+    
+    digital = [
+      "التصوير الطبي",
+      "باور بوينت",
+      "بلو سكاي"
+    ]
+    
+    soft = [
+      "إدارة مرضى الأطفال",
+      "إدارة المرضى",
+      "وضع خطة العلاج",
+      "إدارة الوقت",
+      "القدرة على تقديم رعاية ممتازة للمرضى والتواصل بفعالية"
+    ]
+    
+  
+  [params.ar.education]
+    university = "جامعة الزقازيق - كلية طب الأسنان"
+    
+    [params.ar.education.master]
+      title = "لا يوجد"
+    
+    [params.ar.education.phd]
+      title = "لا يوجد"
+    
+    [[params.ar.education.timeline]]
+      event = "2020 الدخول الى الكليه"
+    
+    [[params.ar.education.timeline]]
+      event = "2025 التخرج من الكليه"  
+
+  [params.ar.contact.location]
+    address = "مستشفى منيا القمح المركزى"
+
+  [params.ar.ui]
+    [params.ar.ui.nav]
+      profile = "الملف الشخصي"
+      skills = "المهارات"
+      education = "التعليم"
+      clinical_cases = "الحالات السريرية"
+      cases_short = "الحالات"
+      blog = "المدونة"
+      contact = "التواصل"
+
+    [params.ar.ui.skills]
+      title = "المهارات المهنية"
+      clinical_title = "المهارات السريرية"
+      digital_title = "المهارات الرقمية"
+      soft_title = "المهارات الشخصية"
+
+    [params.ar.ui.education]
+      title = "التعليم والخط الزمني"
+      graduated_label = "تخرج"
+      career_timeline_title = "الخط الزمني المهني"
+      courses_title = "الدورات والشهادات"
+
+    [params.ar.ui.cases]
+      title = "الحالات السريرية"
+      subtitle = "معرض الحالات السريرية"
+
+    [params.ar.ui.blog]
+      title = "أحدث المقالات"
+      subtitle = "رؤى ومعرفة"
+      empty_text = "لا توجد مقالات بعد. أضف أول مقال في config.toml"
+
+    [params.ar.ui.contact]
+      title = "تواصل معي"
+      subtitle = "لنتواصل ونتعاون"
+      follow_me_title = "تابعني"
+
+    [params.ar.ui.labels]
+      now_working_as = "أعمل حالياً ك"
+      at = "في"
+      phone = "الهاتف"
+      whatsapp = "واتساب"
+      email = "البريد"
+      location = "الموقع"
+      get_directions = "احصل على الاتجاهات"
+      masters_degree = "درجة الماجستير"
+      phd_degree = "درجة الدكتوراه"
+      rights_reserved = "جميع الحقوق محفوظة"
