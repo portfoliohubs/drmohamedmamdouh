@@ -277,7 +277,7 @@ defaultContentLanguage = "en"
   # Contact Section
   [params.contact]
     phone = "01065118487"
-    whatsapp = "01065118487"
+    whatsapp = "+201065118487"
     email = "mohamed.labib1709@gmail.com"
     instagram = "https://www.instagram.com/dr.mohamed_007?igsh=MTNiOXoxZG0xYWhqOQ=="
     facebook = "https://www.facebook.com/share/1HQFynvpqR/"
